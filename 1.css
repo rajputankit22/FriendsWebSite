@@ -1,0 +1,149 @@
+@font-face{
+            font-family:font1;
+            src:url(font/Philosopher-BoldItalic.ttf);
+    
+}
+
+#h1 {                   text-align: center;
+                        font-family:font1;
+                        padding-top: 4px;
+                         color: white;
+    
+            
+                
+                       }
+#menu{
+        height: 60px;
+        margin: 5px 0;
+    
+     }
+#menu ul li{          
+                      display: inline;
+                      list-style: none;
+                      font-family: tahoma;
+                       background-color: mediumseagreen;
+                       color: white;
+                       padding: 6px;
+                       margin-left: 60px;
+        }
+#menu a:link{
+            text-decoration: none;
+            color: white;
+          }
+#div1 { background-color: darkslategray;
+        height:800px;
+                  
+                    }   
+#div1 form { color: white;
+             font-size: 18px;
+              font-family: font1;
+    
+           }
+#div1m input{  
+               font-size: 20px;
+            }
+#menu ul li:hover{
+                  color:darkslategrey;
+                }
+legend { text-align: center;
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+      }
+fieldset { 
+    
+    display: block;
+    margin-left: 100px;
+                    
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+
+ #footer {              width: auto;
+                          height: 80px;
+                       background-color:mediumseagreen;
+                        color:white;
+                        clear:both;
+                      text-align:center;
+        }
+#footer {
+            padding-top: 1px;
+    
+          }
+#footer1 {
+                           width: auto;
+                          height: 70px;
+                       background-color:darkslategrey;
+                        color:white;
+                        clear:both;
+                      text-align:center;
+                      padding:0 ;
+                       
+                      }
+#footer1 p{
+            padding-top: 10px;
+            font-family: tahoma;
+            text-decoration: none;
+             color: azure;  
+         }
+#footer1 p:hover{
+            color: #0DDB94;
+            font-size: 15px;
+              }
+#footer1 a:link{
+            
+             color: azure;
+             text-decoration: none;
+          }
+ input[type=submit]{
+	width: 130px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+input[type=submit]:active{
+	opacity: 0.6;
+}
+input[type=submit]:focus{
+	outline: none;
+}
+ button[type=reset]{
+	width: 130px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+button[type=reset]:hover{
+	opacity: 0.8;
+}
+
+button[type=reset]:active{
+	opacity: 0.6;
+}
+button[type=reset]:focus{
+	outline: none;
+}

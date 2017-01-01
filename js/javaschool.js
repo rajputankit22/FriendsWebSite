@@ -1,0 +1,17 @@
+var slideimages = new Array() // create new array to preload images
+slideimages[0] = new Image() // create new instance of image object
+slideimages[0].src = "schoolimg/school5.jpg" // set image src property to image path, preloading image in the process
+slideimages[1] = new Image()
+slideimages[1].src = "schoolimg/school1.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "schoolimg/school2.jpg"
+slideimages[3] = new Image()
+slideimages[3].src = "schoolimg/school3.jpg"
+slideimages[4] = new Image()
+slideimages[4].src = "schoolimg/school4.jpg"
+slideimages[5] = new Image()
+slideimages[5].src = "schoolimg/school5.jpg"
+slideimages[6] = new Image()
+slideimages[6].src = "schoolimg/school6.jpg"
+slideimages[7] = new Image()
+slideimages[7].src = "schoolimg/school7.jpg"

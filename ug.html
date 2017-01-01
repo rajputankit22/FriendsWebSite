@@ -1,0 +1,70 @@
+<!doctype html>
+<!--UG-->
+<html>
+    <head>
+      <title> UG </title>
+        <link rel="icon" href="image/logo.ico" type="image">
+      <link rel="stylesheet" href="2.css">
+     <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <style>
+#div11 h1{  font-family: font1;
+            
+        }
+    </style>
+    <script src="js/javaug.js" type="text/javascript"></script>
+<body>
+     <div id="div1">
+            <div id="div11">
+                 <h1><spam class="fa fa-spinner fa-fw fa-spin fa-pulse"></spam> UG'S TIME 
+                     <spam class="fa fa-spinner fa-fw fa-spin fa-pulse"></spam></h1>
+             </div>
+            <div id="div12"> 
+                 <img src="ugimg/clg1.JPG" id="slide"/>
+
+<script type="text/javascript">
+
+//variable that will increment through the images
+var step=0
+
+function slideit(){
+ //if browser does not support the image object, exit.
+ if (!document.images)
+  return
+ document.getElementById('slide').src = slideimages[step].src
+ if (step<8)
+  step++
+ else
+  step=0
+ //call function "slideit()" every 2.5 seconds
+ setTimeout("slideit()",2500)
+}
+
+slideit()
+
+</script> 
+                  
+            </div>
+           <div id="menu">
+        <hr>
+           <ol class="fa-ul">
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Manish Tripathi</a></li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Pooja Pandey</a></li> 
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Shashank Tripathi</a></li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Rahul Yadav</a> </li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Shruti Sharma</a></li> 
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Rupali Chouhan</a></li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Bharat Bijani</a></li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Raj</a></li> 
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Chandra Shekhar</a></li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Devendra Mandloi</a></li>       
+           </ol>
+           <hr>
+        <hr>
+         </div>
+        <div id="footer">
+            <p>Presented By<br>Ankit Kumar Rajpoot</p>
+        </div>
+    </div>
+</body>
+</html>

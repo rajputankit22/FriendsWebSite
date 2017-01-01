@@ -1,0 +1,70 @@
+<!doctype html>
+<!-- PG -->
+<html>
+    <head>
+      <title> PG </title>
+      <link rel="stylesheet" href="2.css">
+     <link rel="icon" href="image/logo.ico" type="image">    
+     <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <style>
+#div11 h1{  font-family: font1;
+            
+        }
+    </style>
+    <script src="js/javapg.js" type="text/javascript"></script>
+<body>
+     <div id="div1">
+            <div id="div11">
+                 <h1><spam class="fa fa-spinner fa-fw fa-spin fa-pulse"></spam> PG'S TIME 
+                     <spam class="fa fa-spinner fa-fw fa-spin fa-pulse"></spam></h1>
+             </div>
+            <div id="div12"> 
+                  <img src="pgimg/clg1.JPG" id="slide"/>
+
+<script type="text/javascript">
+
+//variable that will increment through the images
+var step=0
+
+function slideit(){
+ //if browser does not support the image object, exit.
+ if (!document.images)
+  return
+ document.getElementById('slide').src = slideimages[step].src
+ if (step<6)
+  step++
+ else
+  step=0
+ //call function "slideit()" every 2.5 seconds
+ setTimeout("slideit()",2500)
+}
+
+slideit()
+
+</script> 
+                  
+            </div>
+           <div id="menu">
+        <hr>
+           <ol class="fa-ul">
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Ankush Yadav</a></li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Shubham Majavdiaya</a></li> 
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Chetan Bairagi</a></li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Sandeep Vani</a> </li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Ankit Patni</a></li> 
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Aman Gupta</a></li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Tarun Sharma</a></li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Abhishek Agarwal</a></li> 
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Bappaditya Samanta</a></li>
+           <li><i class="fa-li fa fa-spinner fa-spin fa-pulse"></i><a href="#">Shubham Vyash</a></li>       
+           </ol>
+           <hr>
+        <hr>
+         </div>
+        <div id="footer">
+            <p>Presented By<br>Ankit Kumar Rajpoot</p>
+        </div>
+    </div>
+</body>
+</html>
